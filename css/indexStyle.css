@@ -78,6 +78,7 @@ li {
   justify-content: space-around;
   position: absolute;
   top: 0;
+  left: 0;
   margin-top: 25vh;
   margin-left: 10vw;
   width: 85vw;
@@ -106,7 +107,7 @@ li {
 #links {
   display: block;
   position: absolute;
-  margin-left: 10vw;
+  margin-left: 11vw;
   top: 30vh;
 }
 #hatenaIcon {
