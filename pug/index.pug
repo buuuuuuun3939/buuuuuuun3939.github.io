@@ -1,0 +1,113 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="description", content="ぶうううんのポートフォリオ2020")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="icon" href="./IMG/favicon.ico")
+        link(rel="stylesheet" href="./css/indexStyle.css")
+        // spinkit.css
+        link(rel="stylesheet" href="./modules/spinkit/spinkit.min.css")
+        // animate.css
+        link(rel="stylesheet" href="./modules/animate/animate.min.css")
+        // jquery
+        script(type="text/javascript" src="./modules/jquery/jquery.min.js")
+        // pagepiling.js
+        link(rel="stylesheet" href="./modules/pagepiling/jquery.pagepiling.css")
+        script(type="text/javascript" src="./modules/pagepiling/jquery.pagepiling.js")
+
+        title "ぶうううん's ポートフォリオ 2020"
+    body
+        div(id="loadWrap")
+            div(class="sk-chase")
+                div(class="sk-chase-dot")
+                div(class="sk-chase-dot")
+                div(class="sk-chase-dot")
+                div(class="sk-chase-dot")
+                div(class="sk-chase-dot")
+                div(class="sk-chase-dot")
+
+        div(id="bodyWrap")
+            img(id="profileImg" src="./IMG/ryoma.jpg" alt="")
+
+            div(id="pagepiling")
+                article(class="section")
+                    section(id="topLogo")
+                        h1 ぶうううん's portfolio
+                    
+                    div(id="triangle" class="animate__animated animate__bounce animate__repeat-2")
+
+                    img(src="./IMG/landscape-5164044_1920.jpg" alt="" class="backImg")
+
+                article(class="section")
+                    img(src="./IMG/notebook-1280538_1920.jpg" alt="" class="backImg" style="filter: brightness(120%)")
+                    h2 概要
+
+                    div(id="whoIs")
+                        ul
+                            li 出身: 山形県酒田市
+                            li 所属: 東京電機大学
+                            li 好物: 珈琲, 蕎麦
+                            li 興味: Web Security, Web Front, OS
+                            li 趣味: 自作pc, カメラ, モーターサイクル
+
+                article(class="section")
+                    img(src="./IMG/work-731198_1920.jpg" alt="" class="backImg" id="thirdPage" style="filter: brightness(70%)")
+                    h2 所持資格, etc.
+
+                    div(id="passed")    
+                        ul
+                            li ITパスポート
+                            li 基本情報技術者
+                            li 応用情報技術者
+                            li 情報処理安全確保支援士試験合格
+                            li セキュリティ・キャンプ全国大会2019参加
+
+                article(class="section")
+                    img(src="./IMG/tools-864983_1920.jpg" alt="" class="backImg" style="filter: brightness(60%)")
+                    h2 使用技術, ツール, etc.
+
+                    section(id="tech")
+                        h3(class="explanationHeadline front_backendLanguages") Front and Backend Languages
+                        h3(class="explanationHeadline anotherLanguages") AnotherLanguages
+                        h3(class="explanationHeadline tools") Tools
+
+                        ul(class="explanationContents front_backendLanguages")
+                            li HTML
+                            li CSS
+                            li JavaScript
+                            li PHP
+                        ul(class="explanationContents anotherLanguages")
+                            li C
+                            li Java
+                            li Python
+                        ul(class="explanationContents tools")
+                            li Visual Studio Code
+                            li Linux
+                            li Burp Suite
+                            li OWASP ZAP
+
+                article(class="section")
+                    img(src="./IMG/adventure-1850713_1920.jpg" alt="" class="backImg" style="filter: brightness(140%)")
+                    h2 My Work Links
+                    
+                    div(id="links")    
+                        img(src="./IMG/hatenablog-logo.svg" alt="" id="hatenaIcon")
+                        a(href="https://buuuuuuun3939.hatenablog.com" id="hatenaLink") https://buuuuuuun3939.hatenablog.com
+                        img(src="./IMG/mark-github.svg" alt="" id="gitIcon")
+                        a(href="https://github.com/buuuuuuun3939" id="gitLink") https://github.com/buuuuuuun3939
+
+        script
+            | $(function() {
+            |     $('#pagepiling').pagepiling({
+            |         menu: null,
+            |         scrollingSpeed: 500,
+            |         keyboardScrolling: true,
+            |         sectionSelector: '.section',
+            |
+            |         afterRender: function() {
+            |             $('#loadWrap').delay(500).fadeOut(1000);
+            |             $('#bodyWrap').delay(1000).fadeIn(2000); 
+            |         }
+            |     });
+            | });

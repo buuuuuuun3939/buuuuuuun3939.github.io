@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "animate": "^1.0.0",
+    "animate.css": "^4.1.0",
+    "browserify": "^16.5.1",
+    "fullpage.js": "^3.0.8",
+    "gsap": "^3.2.6",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-stylus": "^2.7.0",
+    "jquery": "^3.5.1",
+    "rellax": "^1.12.1",
+    "spinkit": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
