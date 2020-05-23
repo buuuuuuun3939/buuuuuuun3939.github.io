@@ -5,7 +5,8 @@
     <meta name="description" content="ぶうううんのポートフォリオ2020">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./IMG/favicon.ico">
-    <link rel="stylesheet" href="./css/indexStyle.css">
+    <link rel="stylesheet" href="./css/indexPadStyle.css" media="screen and (max-width:1280px)">
+    <link rel="stylesheet" href="./css/indexStyle.css" media="screen and (min-width:1281px">
     <!-- spinkit.css-->
     <link rel="stylesheet" href="./modules/spinkit/spinkit.min.css">
     <!-- animate.css-->
@@ -34,7 +35,9 @@
           <section id="topLogo">
             <h1>ぶうううん's portfolio</h1>
           </section>
-          <div class="animate__animated animate__bounce animate__repeat-2" id="triangle"></div><img class="backImg" src="./IMG/landscape-5164044_1920.jpg" alt="">
+          <div id="triangleWrap">
+            <div class="animate__animated animate__bounce animate__repeat-2" id="triangle"></div>
+          </div><img class="backImg" src="./IMG/landscape-5164044_1920.jpg" alt="">
         </article>
         <article class="section"><img class="backImg" src="./IMG/notebook-1280538_1920.jpg" alt="" style="filter: brightness(120%)">
           <h2>概要</h2>
@@ -98,6 +101,7 @@
               scrollingSpeed: 500,
               keyboardScrolling: true,
               sectionSelector: '.section',
+      
       
               afterRender: function() {
                   $('#loadWrap').delay(500).fadeOut(1000);

@@ -1,0 +1,368 @@
+@media screen and (orientation: landscape) {
+  @font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url("../fonts/NotoSansJP-Bold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: 'SawarabiMincho';
+    src: url("../fonts/SawarabiMincho-Regular.ttf") format("truetype");
+  }
+  body {
+    overflow: hidden;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    touch-action: pan-y pinch-zoom;
+  }
+  #bodyWrap {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+  }
+  h2 {
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 12vh;
+    left: 8vw;
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: 'Noto Sans Japanese';
+  }
+  li {
+    font-family: 'SawarabiMincho';
+  }
+  img {
+    width: 100vw;
+    height: 100vh;
+  }
+  #loadWrap {
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  .sk-chase {
+    top: 40vh;
+    left: 48vw;
+  }
+  #topLogo {
+    position: absolute;
+    margin-top: 20vh;
+    width: 100vw;
+    font-size: 6vw;
+    text-align: center;
+    font-family: 'Noto Sans Japanese';
+  }
+  #triangleWrap {
+    display: flex;
+    justify-content: center;
+  }
+  #triangle {
+    position: absolute;
+    bottom: 10vh;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0 100px;
+    border-color: #f3ea5d transparent transparent transparent;
+    transform: translate(0, -50vw);
+  }
+  #whoIs ul {
+    position: absolute;
+    top: 0;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    font-size: 2.7vw;
+  }
+  #passed ul {
+    position: absolute;
+    top: 0;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    font-size: 2.7vw;
+  }
+  #tech {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    margin-top: 25vh;
+    margin-left: 10vw;
+    width: 85vw;
+  }
+  .explanationHeadline {
+    font-size: 2.7vw;
+  }
+  .explanationContents {
+    padding-left: 0;
+    font-size: 2vw;
+    font-weight: bolder;
+    list-style-position: inside;
+  }
+  .front_backendLanguages {
+    width: 30vw;
+    color: #a4d65e;
+  }
+  .anotherLanguages {
+    width: 30vw;
+    color: #68d2df;
+  }
+  .tools {
+    width: 25vw;
+    color: #f3e500;
+  }
+  #links {
+    display: block;
+    position: absolute;
+    margin-left: 8vw;
+    top: 32vh;
+  }
+  #hatenaIcon {
+    display: block;
+    position: relative;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    height: 15vh;
+    width: auto;
+  }
+  #gitIcon {
+    display: block;
+    position: relative;
+    margin-bottom: 5vh;
+    margin-left: 11.5vw;
+    height: 10vh;
+    width: auto;
+  }
+  #hatenaLink {
+    top: 5vh;
+    left: 5vw;
+    width: 50vw;
+  }
+  #gitLink {
+    top: 22vh;
+    left: 5vw;
+    width: 50vw;
+  }
+  #links a {
+    position: absolute;
+    margin-left: 17vw;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    outline: none;
+    text-decoration: none;
+    font-family: 'SawarabiMincho';
+  }
+  #links a:link {
+    color: #000;
+  }
+  #links a:visited {
+    color: #000;
+  }
+  #links a:hover {
+    text-decoration: underline;
+  }
+  #profileImg {
+    position: fixed;
+    z-index: 999;
+    margin-top: 10vh;
+    margin-left: 85vw;
+    height: 10vh;
+    width: auto;
+    border-radius: 50% 50% 50% 50%;
+    background-size: contain;
+  }
+  #pp-nav ul li a span {
+    display: none;
+  }
+}
+@media screen and (orientation: portrait) {
+  @font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url("../fonts/NotoSansJP-Bold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: 'SawarabiMincho';
+    src: url("../fonts/SawarabiMincho-Regular.ttf") format("truetype");
+  }
+  body {
+    overflow: hidden;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    touch-action: pan-y pinch-zoom;
+  }
+  #bodyWrap {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+  }
+  h2 {
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 12vh;
+    left: 10vw;
+    font-size: 10vw;
+    font-weight: bold;
+    font-family: 'Noto Sans Japanese';
+  }
+  li {
+    padding-top: 2vh;
+    font-family: 'SawarabiMincho';
+  }
+  img {
+    width: 100vw;
+    height: 100vh;
+  }
+  #loadWrap {
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  .sk-chase {
+    top: 40vh;
+    left: 48vw;
+  }
+  #topLogo {
+    position: absolute;
+    margin-top: 30vh;
+    width: 100vw;
+    font-size: 6vw;
+    text-align: center;
+    font-family: 'Noto Sans Japanese';
+  }
+  #triangleWrap {
+    display: flex;
+    justify-content: center;
+  }
+  #triangle {
+    position: absolute;
+    bottom: 10vh;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0 100px;
+    border-color: #f3ea5d transparent transparent transparent;
+    transform: translate(0, -50vw);
+  }
+  #whoIs ul {
+    position: absolute;
+    top: 0;
+    margin-top: 30vh;
+    margin-left: 15vw;
+    font-size: 2.7vw;
+    font-weight: bolder;
+  }
+  #passed ul {
+    position: absolute;
+    top: 0;
+    margin-top: 30vh;
+    margin-left: 15vw;
+    font-size: 2.7vw;
+    font-weight: bolder;
+  }
+  #tech {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    margin-top: 25vh;
+    margin-left: 20vw;
+    width: 85vw;
+    height: 60vh;
+  }
+  #tech li {
+    padding-top: 0;
+    padding-bottom: 1.8vh;
+  }
+  .explanationHeadline {
+    height: 15vh;
+    font-size: 3vw;
+  }
+  .explanationContents {
+    padding-left: 0;
+    height: 15vh;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    list-style-position: inside;
+  }
+  .front_backendLanguages {
+    width: 30vw;
+    color: #a4d65e;
+  }
+  .anotherLanguages {
+    width: 30vw;
+    color: #68d2df;
+  }
+  .tools {
+    width: 25vw;
+    color: #f3e500;
+  }
+  #links {
+    display: block;
+    position: absolute;
+    margin-left: 7vw;
+    top: 32vh;
+  }
+  #hatenaIcon {
+    display: block;
+    position: relative;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    height: 10vh;
+    width: auto;
+  }
+  #gitIcon {
+    display: block;
+    position: relative;
+    margin-bottom: 5vh;
+    margin-left: 11.5vw;
+    height: 7vh;
+    width: auto;
+  }
+  #hatenaLink {
+    top: 4vh;
+    left: 5vw;
+    width: 50vw;
+  }
+  #gitLink {
+    top: 17vh;
+    left: 5vw;
+    width: 50vw;
+  }
+  #links a {
+    position: absolute;
+    margin-left: 18vw;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    outline: none;
+    text-decoration: none;
+    font-family: 'SawarabiMincho';
+  }
+  #links a:link {
+    color: #000;
+  }
+  #links a:visited {
+    color: #000;
+  }
+  #links a:hover {
+    text-decoration: underline;
+  }
+  #profileImg {
+    position: fixed;
+    z-index: 999;
+    margin-top: 10vh;
+    margin-left: 80vw;
+    height: 10vh;
+    width: auto;
+    border-radius: 50% 50% 50% 50%;
+    background-size: contain;
+  }
+  #pp-nav ul li a span {
+    display: none;
+  }
+}

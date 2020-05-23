@@ -47,10 +47,13 @@ li {
   text-align: center;
   font-family: 'Noto Sans Japanese';
 }
+#triangleWrap {
+  display: flex;
+  justify-content: center;
+}
 #triangle {
   position: absolute;
-  left: 44.792vw;
-  bottom: 40vh;
+  bottom: 10vh;
   width: 0;
   height: 0;
   border-style: solid;
