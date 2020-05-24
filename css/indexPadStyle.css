@@ -304,44 +304,39 @@
     color: #f3e500;
   }
   #links {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
-    margin-left: 7vw;
+    margin-left: 15vw;
     top: 32vh;
+    width: 70vw;
   }
   #hatenaIcon {
-    display: block;
     position: relative;
-    margin-bottom: 5vh;
-    margin-left: 10vw;
-    height: 10vh;
-    width: auto;
+    padding-bottom: 50%;
+    width: 12vw;
+    height: auto;
   }
   #gitIcon {
-    display: block;
     position: relative;
-    margin-bottom: 5vh;
-    margin-left: 11.5vw;
-    height: 7vh;
-    width: auto;
-  }
-  #hatenaLink {
-    top: 4vh;
-    left: 5vw;
-    width: 50vw;
+    margin-left: 1.5vw;
+    padding-bottom: 10%;
+    width: 7.5vw;
+    height: auto;
   }
   #gitLink {
-    top: 17vh;
-    left: 5vw;
-    width: 50vw;
+    margin-left: 3vw;
   }
   #links a {
-    position: absolute;
-    margin-left: 18vw;
-    font-size: 2.5vw;
+    display: block;
+    position: relative;
+    width: 55vw;
+    height: auto;
+    font-size: 6vw;
     font-weight: bolder;
     outline: none;
     text-decoration: none;
+    word-break: break-all;
     font-family: 'SawarabiMincho';
   }
   #links a:link {
