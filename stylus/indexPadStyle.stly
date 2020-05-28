@@ -142,50 +142,26 @@
 
     // fifthPage settings
     #links {
-        display block
+        display flex
+        flex-direction column
         position absolute
-        margin-left 8vw
-        top 32vh
+        top 30vh
+        width 100vw
+    }
+    #links a {
+        position relative
+        width 50vw
+        left 50vw
+        transform translate(-50%)
     }
     #hatenaIcon {
-        display block
-        position relative
-        margin-bottom 5vh
-        margin-left 10vw
-        height 15vh
-        width auto
+        width 50vw
+        height auto
     }
     #gitIcon {
-        display block
-        position relative
-        margin-bottom 5vh
-        margin-left 11.5vw
-        height 10vh
-        width auto
-    }
-    #hatenaLink {
-        top 5vh
-        left 5vw
         width 50vw
+        height auto
     }
-    #gitLink {
-        top 22vh
-        left 5vw
-        width 50vw
-    }
-
-    #links a {
-        position absolute
-        margin-left 17vw
-        font-size 2.5vw
-        font-weight bolder
-        outline: none;
-        text-decoration: none;
-        font-family 'SawarabiMincho'
-    }
-    #links a:link    { color: black; }
-    #links a:visited { color: black; }
-    #links a:hover   { text-decoration: underline; }
 
 
 
@@ -321,7 +297,7 @@
         top 0
         margin-top 30vh
         margin-left 15vw
-        width 70vw
+        width 75vw
         font-size 4.5vw
         font-weight bolder
     }
@@ -372,45 +348,25 @@
     // fifthPage settings
     #links {
         display flex
-        flex-wrap wrap
-        align-content start
+        flex-direction column
         position absolute
-        margin-left 15vw
-        top 20vh
-        width 70vw
+        top 30vh
+        width 100vw
+    }
+    #links a {
+        position relative
+        width 50vw
+        left 50vw
+        transform translate(-50%)
     }
     #hatenaIcon {
-        width 12vw
+        width 50vw
         height auto
-    }
-    #hatenaLink {
-        margin-top 11vh
     }
     #gitIcon {
-        margin-left 2vw
-        width 7.5vw
+        width 50vw
         height auto
     }
-    #gitLink {
-        margin-top 5vh
-        margin-left 3vw
-    }
-
-    #links a {
-        display block
-        position relative
-        width 55vw
-        height auto
-        font-size 6vw
-        font-weight bolder
-        outline none
-        text-decoration none
-        word-break break-all
-        font-family 'SawarabiMincho'
-    }
-    #links a:link    { color: black; }
-    #links a:visited { color: black; }
-    #links a:hover   { text-decoration: underline; }
 
 
 
