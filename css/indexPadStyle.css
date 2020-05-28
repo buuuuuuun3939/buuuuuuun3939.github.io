@@ -79,7 +79,7 @@
     top: 0;
     margin-top: 35vh;
     margin-left: 15vw;
-    font-size: 2.7vw;
+    font-size: 3.5vw;
   }
   #tech {
     display: inline-flex;
@@ -252,7 +252,8 @@
     top: 0;
     margin-top: 30vh;
     margin-left: 15vw;
-    font-size: 2.7vw;
+    width: 50vw;
+    font-size: 4.5vw;
     font-weight: bolder;
   }
   #passed ul {
@@ -260,7 +261,8 @@
     top: 0;
     margin-top: 30vh;
     margin-left: 15vw;
-    font-size: 2.7vw;
+    width: 70vw;
+    font-size: 4.5vw;
     font-weight: bolder;
   }
   #tech {
@@ -274,20 +276,21 @@
     left: 0;
     margin-top: 15vh;
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
   }
   #tech li {
     padding-top: 0;
     padding-bottom: 1.8vh;
+    width: 40vw;
   }
   .explanationHeadline {
     height: 15vh;
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
   .explanationContents {
     padding-left: 5vw;
     height: 15vh;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: bolder;
     list-style-position: inside;
   }
@@ -306,25 +309,26 @@
   #links {
     display: flex;
     flex-wrap: wrap;
+    align-content: start;
     position: absolute;
     margin-left: 15vw;
-    top: 32vh;
+    top: 20vh;
     width: 70vw;
   }
   #hatenaIcon {
-    position: relative;
-    padding-bottom: 50%;
     width: 12vw;
     height: auto;
   }
+  #hatenaLink {
+    margin-top: 11vh;
+  }
   #gitIcon {
-    position: relative;
-    margin-left: 1.5vw;
-    padding-bottom: 10%;
+    margin-left: 2vw;
     width: 7.5vw;
     height: auto;
   }
   #gitLink {
+    margin-top: 5vh;
     margin-left: 3vw;
   }
   #links a {
